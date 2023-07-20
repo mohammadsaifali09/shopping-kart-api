@@ -1,0 +1,17 @@
+.landing{
+    height: 250px;
+    width: 500px;
+    border: 2px solid;
+    margin: 200px 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.landing img{
+    margin-top: 20px;
+    height: 150px;
+}
+
+.landing h2{
+    margin-left: 15px;
+}
