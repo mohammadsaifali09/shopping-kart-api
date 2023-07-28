@@ -1,0 +1,71 @@
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.profile>img{
+    width: 40px;
+    height: 40px;
+    /* mix-blend-mode: darken; */
+    border-radius: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+
+.options{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wishlist a{
+    color: black;
+    text-decoration: none;
+}
+
+.sub1{
+    display: block;
+    position: absolute;
+    transform: translate(-50px,10px);
+}
+
+.sub1 a{
+    display: block;
+    width: 105px;
+    height: 30px;
+    box-shadow: 0px 0px 4px gray;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.sub1 a:hover{
+    background-color: blue;
+    color: white;
+}
+
+#l3{
+    font-size: small;
+}
+
+.profile img:hover{
+    display: block;
+}
+
+.hambarger{
+    display: none;
+    mix-blend-mode: color-dodge;
+}
+
+@media (max-wirdth:768px){
+    .hambarger{
+        display: block;
+    }
+    .options{
+        display: none;
+    }
+}
