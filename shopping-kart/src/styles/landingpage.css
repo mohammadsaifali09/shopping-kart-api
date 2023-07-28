@@ -2,13 +2,14 @@
     height: 250px;
     width: 500px;
     border: 2px solid;
-    margin: 200px 450px;
+    margin: 200px 400px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .landing img{
     margin-top: 20px;
+    margin-bottom: 10px;
     height: 150px;
 }
 
