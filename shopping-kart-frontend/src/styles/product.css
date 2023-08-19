@@ -1,0 +1,22 @@
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.display>.page{
+    border: 1px solid;
+    width: 295px;
+    padding: 5px;
+    margin: 5px 20px;
+}
+.display>.page>.image{
+    height: 200px;
+    width: 100%;
+    background-color: gray;
+}
+.display>.page>details{
+    width: 100px;
+}
+.display>.page>.buttons{
+    display: flex;
+    justify-content: space-between;
+}
